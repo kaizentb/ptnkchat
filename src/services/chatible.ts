@@ -256,11 +256,7 @@ const processEvent = async (event: WebhookMessagingEvent): Promise<void> => {
       await fb.sendTextButtons(sender, lang.END_CHAT, true, false, true, true, false);
     } else if (command === lang.KEYWORD_HELP) {
       await fb.sendTextButtons(sender, lang.HELP_TXT, false, false, true, false, false);
-    } else if (command === lang.KEYWORD_CAT) {
-      await gifts.sendCatPic(sender, null);
-    } else if (command === lang.KEYWORD_DOG) {
-      await gifts.sendDogPic(sender, null);
-    } else if (!event.read) {
+    }  else if (!event.read) {
       await fb.sendTextButtons(sender, lang.WAITING, false, false, true, false, false);
     }
   } else if (!waitState && sender2 !== null) {

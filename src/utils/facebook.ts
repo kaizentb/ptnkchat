@@ -62,16 +62,7 @@ const persistent_menu = [
 ];
 
 const quick_buttons_generic: Array<SendQuickReply> = [
-  {
-    content_type: 'text',
-    title: 'meow',
-    payload: lang.KEYWORD_CAT
-  },
-  {
-    content_type: 'text',
-    title: 'gauw',
-    payload: lang.KEYWORD_DOG
-  },
+ 
   {
     content_type: 'text',
     title: 'trợ giúp',

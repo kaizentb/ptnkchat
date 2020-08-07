@@ -34,25 +34,11 @@ const persistent_menu = [
         title: 'chức năng',
         type: 'nested',
         call_to_actions: [
+          
           {
-            title: 'meow',
+            title: 'Thả thính...',
             type: 'postback',
-            payload: lang.KEYWORD_CAT
-          },
-          {
-            title: 'gauw',
-            type: 'postback',
-            payload: lang.KEYWORD_DOG
-          },
-          {
-            title: 'tìm nam',
-            type: 'postback',
-            payload: lang.KEYWORD_GENDER + lang.KEYWORD_GENDER_MALE
-          },
-          {
-            title: 'tìm nữ',
-            type: 'postback',
-            payload: lang.KEYWORD_GENDER + lang.KEYWORD_GENDER_FEMALE
+            payload: lang.KEYWORD_GENDER + lang.KEYWORD_GENDER_BOTH
           },
           {
             title: 'kết thúc',
@@ -96,13 +82,8 @@ const quick_buttons_generic: Array<SendQuickReply> = [
 const quick_buttons_genders: Array<SendQuickReply> = [
   {
     content_type: 'text',
-    title: 'tìm nam',
-    payload: lang.KEYWORD_GENDER + lang.KEYWORD_GENDER_MALE
-  },
-  {
-    content_type: 'text',
-    title: 'tìm nữ',
-    payload: lang.KEYWORD_GENDER + lang.KEYWORD_GENDER_FEMALE
+    title: 'Thả thính...',
+    payload: lang.KEYWORD_GENDER + lang.KEYWORD_GENDER_BOTH
   }
 ];
 
@@ -141,7 +122,7 @@ const setPersona = async (): Promise<void> => {
 
   const payload = {
     name: 'Đối chat',
-    profile_picture_url: 'https://ptnkchat.github.io/assets/ptnk_logo.jpeg'
+    profile_picture_url: 'https://imgur.com/IkD8NTJ'
   };
 
   try {

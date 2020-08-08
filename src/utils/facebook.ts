@@ -113,7 +113,7 @@ const setPersona = async (): Promise<void> => {
 
   const payload = {
     name: 'Đối chat',
-    profile_picture_url: 'https://imgur.com/IkD8NTJ'
+    profile_picture_url: 'https://dinhquoc1st.github.io/assets/logosv.jpeg' 
   };
 
   try {

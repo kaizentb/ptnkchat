@@ -105,14 +105,14 @@ export default {
 
   // Maximum amount of time in wait room
   // 0 for unlimited
-  MAX_WAIT_TIME_MINUTES: parseEnvNumber('MAX_WAIT_TIME_MINUTES') || 0,
+  MAX_WAIT_TIME_MINUTES: parseEnvNumber('MAX_WAIT_TIME_MINUTES') || 120,
 
   // Password to log into admin page
   ADMIN_PASSWORD: parseEnvString('ADMIN_PASSWORD') || '',
 
   // Maximum amount of time of a session
   // 0 for unlimited
-  MAX_SESSION_MINUTES: parseEnvNumber('MAX_SESSION_MINUTES') || 0, // Thời gian 1 session
+  MAX_SESSION_MINUTES: parseEnvNumber('MAX_SESSION_MINUTES') || 120, // Thời gian 1 session
 
   // ID of developer's Facebook account
   DEV_ID: parseEnvString('DEV_ID') || '',

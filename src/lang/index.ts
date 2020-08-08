@@ -1,7 +1,7 @@
 export default {
   MAINTENANCE: '[BOT] Server hiện đang bảo trì...',
 
-  FIRST_COME: '[BOT] Chào mừng bạn đến với HVHC Chatbot. Trước khi bắt đầu, hãy chắc chắn rằng bạn đã chọn đúng giới tính người muốn chat cùng.\n\nẤn trợ giúp (hoặc gửi trogiup) để xem thêm.',
+  FIRST_COME: '[BOT] Chào mừng bạn đến với HVHC Chatbot😋 . Chúc bạn có những phút giây vui vẻ nhé, câu được cá thì càng tốt á <3.\n\nẤn trợ giúp (hoặc gửi help) để xem thêm.',
 
   INSTRUCTION: '[BOT] Gửi start hoặc bấm vào nút để tìm bạn chat.',
 
@@ -15,7 +15,7 @@ export default {
   START_WARN_GENDER: '[BOT] Lưu ý: Bạn không chọn giới tính. Có thể bạn sẽ phải đợi lâu hơn.',
   START_ERR_ALREADY: '[BOT] Bạn không thể start khi chưa end...',
 
-  WAITING: '[BOT] Chờ xíu, Bot đang thả thính hộ bạn nha...😋 Nếu bạn muốn đổi giới tính, gửi ketthuc sau đó chọn giới tính mới.',
+  WAITING: '[BOT] Chờ xíu, Bot đang thả thính hộ bạn nha...😋 Nếu bạn muốn kết thúc tìm kiếm, gửi ketthuc nha.',
   CONNECTED: '[BOT] Success! Cá cắn câu rồi này, mau giật đi thôi 😂',
 
   END_CHAT: '[BOT] End chat!\nGửi start hoặc bấm vào nút để tìm bạn chat.',

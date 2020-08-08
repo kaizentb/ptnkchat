@@ -66,7 +66,7 @@ export default {
   MAINTENANCE: parseEnvBoolean('MAINTENANCE') || false,
 
   // Graph API
-  GRAPH_API: parseEnvString('GRAPH_API') || 'https://graph.facebook.com/v7.0',
+  GRAPH_API: parseEnvString('GRAPH_API') || 'https://graph.facebook.com/v8.0',
 
   // App secret
   APP_SECRET: parseEnvString('APP_SECRET') || '',
@@ -81,7 +81,7 @@ export default {
   MAX_MESSAGE_LENGTH: parseEnvNumber('MAX_MESSAGE_LENGTH') || 2000,
 
   // App name (must be the same on Heroku)
-  APP_NAME: parseEnvString('APP_NAME') || 'ptnkchat',
+  APP_NAME: parseEnvString('APP_NAME') || 'hvhcchatbot',
 
   // Heroku API key
   HEROKU_API_KEY: parseEnvString('HEROKU_API_KEY') || '',
@@ -98,7 +98,7 @@ export default {
   POST_LOG_NAME2: parseEnvString('POST_LOG_NAME2') || '',
 
   // Link to Google Form for reporting
-  REPORT_LINK: parseEnvString('REPORT_LINK') || 'https://example.com',
+  REPORT_LINK: parseEnvString('REPORT_LINK') || 'https://forms.gle/nsXUn7qBpnbaCjEJ7',
 
   // Maximum number of people in wait room
   MAX_PEOPLE_IN_WAITROOM: parseEnvNumber('MAX_PEOPLE_IN_WAITROOM') || 20,

@@ -60,7 +60,7 @@ export interface ConfigProps {
   DEV_ID: string;
   VERSION: string;
 }
-
+//change something
 export default {
   // Maintenance mode
   MAINTENANCE: parseEnvBoolean('MAINTENANCE') || false,

@@ -98,7 +98,7 @@ export default {
   POST_LOG_NAME2: parseEnvString('POST_LOG_NAME2') || '',
 
   // Link to Google Form for reporting
-  REPORT_LINK: parseEnvString('REPORT_LINK') || 'https://forms.gle/4cUXLuvRvsVMDzDbA',
+  REPORT_LINK: parseEnvString('REPORT_LINK') || 'https://www.facebook.com/search/top?q=mta%20chatbot%20%2B',
 
   // Maximum number of people in wait room
   MAX_PEOPLE_IN_WAITROOM: parseEnvNumber('MAX_PEOPLE_IN_WAITROOM') || 20,
